@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-defiwallet",
+  "version": "3.0.0",
+  "description": "Defi Wallet shared eslint config",
+  "author": "Defi Wallet <support@defiwallet.fi> (https://defiwallet.fi)",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lyfebloc/DefiWallet/eslint-config.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-filenames": "^1.3.2"
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./index.js"
+    ],
+    "env": {
+      "node": true,
+      "commonjs": true
+    }
+  }
+}
