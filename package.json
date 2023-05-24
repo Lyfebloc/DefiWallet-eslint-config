@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-defiwallet",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Defi Wallet shared eslint config",
   "author": "Defi Wallet <support@defiwallet.fi> (https://defiwallet.fi)",
   "main": "index.js",
